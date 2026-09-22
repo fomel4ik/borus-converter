@@ -31,6 +31,6 @@
 		background-color: var(--md-sys-color-surface-container-lowest);
 		border-radius: 20px 20px 0 0;
 		padding: 16px;
-		margin: 25px 25px 0 0;
+		margin: 16px 16px 0 0;
 	}
 </style>
