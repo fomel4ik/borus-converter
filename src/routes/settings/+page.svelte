@@ -1,2 +1,8 @@
+<script lang="ts">
+    import ThemePicker from '$lib/components/ThemePicker.svelte';
+</script>
+
 <h1>Settings</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<p>Ты думал тут что-то будет?</p>
+
+<ThemePicker />
