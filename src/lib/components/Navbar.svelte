@@ -33,6 +33,15 @@
 	}
 
 	a {
+	    list-style: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+
+	a {
 		width: 80px;
 	    list-style: none;
 		display: flex;
@@ -43,6 +52,7 @@
 		text-decoration: none;
 		color: inherit;
 	}
+
 
 	.label {
 		margin-bottom: 1px;
