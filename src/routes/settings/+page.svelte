@@ -3,7 +3,6 @@
 </script>
 
 <h1>Settings</h1>
-<p>Ты думал тут что-то будет?</p>
+
 
 <ThemePicker />
-

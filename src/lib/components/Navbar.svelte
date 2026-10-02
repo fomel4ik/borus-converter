@@ -16,6 +16,11 @@
 		<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M440-280h80v-240h-80v240Zm68.5-331.5Q520-623 520-640t-11.5-28.5Q497-680 480-680t-28.5 11.5Q440-657 440-640t11.5 28.5Q463-600 480-600t28.5-11.5ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-32<PASSWORD>"/></svg>
 		<span class="label">About</span>
 	</a>
+
+	<a href={resolve('/labs')}>
+		<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-160v-80h110l-16-14q-52-46-73-105t-21-119q0-111 66.5-197.5T400-790v84q-72 26-116 88.5T240-478q0 45 17 87.5t53 78.5l10 10v-98h80v240H160Zm400-10v-84q72-26 116-88.5T720-482q0-45-17-87.5T650-648l-10-10v98h-80v-240h240v80H690l16 14q49 49 71.5 106.5T800-482q0 111-66.5 197.5T560-170Z"/></svg>
+		<span class="label">Labs</span>
+	</a>
 </nav>
 
 <style>
@@ -51,6 +56,8 @@
 		gap: 8px;
 		text-decoration: none;
 		color: inherit;
+		border-radius: 8px;
+		transition: background-color 0.1s ease-in;
 	}
 
 
@@ -63,6 +70,6 @@
 	    fill: var(--md-sys-color-on-surface-variant);
 	}
 	a:hover {
-	    color: red;
+        background: color-mix(in srgb, var(--md-sys-color-surface-tint) 20%, transparent);
 	}
 </style>
