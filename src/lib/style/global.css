@@ -238,6 +238,10 @@ body {
     color: var(--md-sys-color-on-surface-variant);
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
 	transition:
 		background-color 0.2s ease-out,
