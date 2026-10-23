@@ -9,7 +9,7 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<title>Borus Converter</title>
-	<meta name="description" content="Local file converter" />
+	<meta name="description" content="Local file converter"/>
 </svelte:head>
 
 <div class="layout">
